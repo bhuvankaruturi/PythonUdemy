@@ -31,3 +31,4 @@ while True:
     xml = getPage()
     getLinks(xml)
     time.sleep(30)
+    c,conn = connection()
